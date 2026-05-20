@@ -10,7 +10,7 @@ const FIGURES = [
   { base: "05_density_lever_simplex", hasLight: true, title: "Which lever makes a city dense" },
   { base: "06_city_growth", hasLight: true, title: "How cities grew, then and now" },
   { base: "07_power_plants_europe", hasLight: true, title: "Europe runs on eight kinds of power" },
-  { base: "08_heat_geothermal_bivariate", hasLight: true, title: "Heat demand and geothermal potential rarely line up" },
+  { base: "08_heat_geothermal_bivariate", hasLight: true, title: "Europe's centre has warm rocks and cold winters" },
   { base: "09_crm_energy_transition", hasLight: true, title: "The transition has a materials bottleneck" },
   { base: "10_power_grid_foundation", hasLight: true, title: "The grid as it stands" },
   { base: "11_data_centres_over_grid", hasLight: true, title: "Data centres land on the grid that already exists" },
@@ -34,8 +34,13 @@ const FIGURES = [
   { base: "30_freight_accessibility", hasLight: true, lit: "_light", title: "Freight reach as a killed random walk" },
   { base: "31_backyards_index_map", hasLight: true, title: "Empty corridors survive only on Europe's rim" },
   { base: "32_backyards_concentration_scatter", hasLight: true, title: "More spread, more backyards" },
-  { base: "33_business_concentration", hasLight: true, title: "Firms hyper-concentrate in a few metros" },
+  { base: "33_business_concentration", hasLight: true, title: "Primate cities host most European businesses" },
   { base: "34_city_region_industry_hhi", hasLight: true, title: "How many industries a region really runs on" },
+  { base: "35_lau_depopulation", hasLight: true, title: "Most of Europe lost people since 1961 — except its cities" },
+  { base: "36_universities_per_city", hasLight: true, title: "Universities follow capitals, students don't" },
+  { base: "37_cordis_network", hasLight: true, title: "Research links concentrate on a few hubs" },
+  { base: "38_cordis_residual_map", hasLight: true, title: "Where collaboration outruns the air network" },
+  { base: "39_cordis_residual_scatter", hasLight: true, title: "Collaboration lags flights — elites excepted" },
 ];
 
 function shuffled(arr) {
