@@ -41,6 +41,8 @@ const FIGURES = [
   { base: "37_cordis_network", hasLight: true, title: "Research links concentrate on a few hubs" },
   { base: "38_cordis_residual_map", hasLight: true, title: "Where collaboration outruns the air network" },
   { base: "39_cordis_residual_scatter", hasLight: true, title: "Collaboration lags flights — elites excepted" },
+  { base: "40_asml_supply_radial", hasLight: true, title: "Hundreds of suppliers — a dozen irreplaceable" },
+  { base: "41_asml_supply_map_europe", hasLight: true, title: "Lithography is Dutch — except its optics, German" },
 ];
 
 function shuffled(arr) {
